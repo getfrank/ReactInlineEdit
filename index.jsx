@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 function selectInputText(element) {
     element.setSelectionRange(0, element.value.length);
